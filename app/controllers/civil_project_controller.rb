@@ -11,12 +11,13 @@ class CivilProjectController < ActionController::Base
         else
             render :new
         end
-    end 
- def show 
- end 
+    end
 
-    # def new 
-    # end 
+    def show 
+    end 
+
+    def index 
+    end 
     private 
 
     
