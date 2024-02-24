@@ -1,0 +1,16 @@
+<h1> Civil Projects index  </h1>
+
+<form action="/civil_projects" method="post">
+    <!-- CSRF Token for security -->
+    <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
+
+    <label for="title">Title:</label>
+    <input type="text" id="title" name="civil_project[title]" required>
+
+    <label for="description">Description:</label>
+    <textarea id="description" name="civil_project[description]" required></textarea>
+
+   
+
+    <button type="submit">Submit</button>
+  </form>
